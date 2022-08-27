@@ -12,27 +12,31 @@ const NavigationBar = ({ link }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
+            <LinkContainer to="/">
+              <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
             <LinkContainer to="/about-me">
               <Nav.Link>About Me</Nav.Link>
             </LinkContainer>
-            <Nav.Link>Projects</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+
+            <NavDropdown title="Projects" id="collasible-nav-dropdown">
               <LinkContainer to="/">
-                <NavDropdown.Item>Home</NavDropdown.Item>
+                <NavDropdown.Item>Full Stack Projects</NavDropdown.Item>
               </LinkContainer>
 
               <LinkContainer to="/about-me">
-                <NavDropdown.Item href="#action/3.3">About Me</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Backend Focused Projects
+                </NavDropdown.Item>
               </LinkContainer>
-              <NavDropdown.Item href="#action/3.2">Projects</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Frontend Focused Projects
+              </NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+            <Nav.Link href="#deets">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -8,9 +8,8 @@ function App() {
   return (
     <HashRouter>
       <NavigationBar link="About me"></NavigationBar>;
-      
       <AppRouter />
-
+      <Footer></Footer>
     </HashRouter>
   );
 }

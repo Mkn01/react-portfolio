@@ -5,7 +5,7 @@ const ImgContainer = () => {
         <img
           class="head-shot"
           alt="headshot"
-          src="./assets//images/port image.jpg"
+          src="src/components/assets/images/icon.png"
         />
       </div>
     </div>

@@ -1,5 +1,10 @@
+import ImgContainer from "../components/img-container";
 const HomePage = () => {
-  return <div>This is the Home page</div>;
+  return (
+    <div>
+      <ImgContainer></ImgContainer>
+    </div>
+  );
 };
 
 export default HomePage;

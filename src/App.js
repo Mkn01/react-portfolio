@@ -8,7 +8,7 @@ import AppRouter from "../src/Routes";
 function App() {
   return (
     <HashRouter>
-      <NavigationBar link="About me"></NavigationBar>;
+      <NavigationBar link="About me"></NavigationBar>
       <AppRouter />
       <Footer></Footer>
     </HashRouter>

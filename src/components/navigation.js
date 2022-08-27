@@ -20,23 +20,28 @@ const NavigationBar = ({ link }) => {
             </LinkContainer>
 
             <NavDropdown title="Projects" id="collasible-nav-dropdown">
-              <LinkContainer to="/">
+              <LinkContainer to="/full-stack-projects">
                 <NavDropdown.Item>Full Stack Projects</NavDropdown.Item>
               </LinkContainer>
 
-              <LinkContainer to="/about-me">
-                <NavDropdown.Item href="#action/3.3">
-                  Backend Focused Projects
-                </NavDropdown.Item>
+              <LinkContainer to="/backend-projects">
+                <NavDropdown.Item>Backend Focused Projects</NavDropdown.Item>
               </LinkContainer>
-              <NavDropdown.Item href="#action/3.2">
-                Frontend Focused Projects
-              </NavDropdown.Item>
+
+              <LinkContainer to="/frontend-projects">
+                <NavDropdown.Item>Frontend Focused Projects</NavDropdown.Item>
+              </LinkContainer>
               <NavDropdown.Divider />
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Contact</Nav.Link>
+            <LinkContainer to="/resume">
+              <Nav.Link>CV</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/contact">
+              <Nav.Link>Contact</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./components/navigation";
+import Footer from "./components/footer";
 import { HashRouter } from "react-router-dom";
 import AppRouter from "../src/Routes";
 

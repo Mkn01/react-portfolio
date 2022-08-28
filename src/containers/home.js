@@ -1,9 +1,10 @@
 import AsideBar from "../components/asideBar";
+import OptionButtons from "../components/buttons";
 
 const HomePage = () => {
   return (
     <div>
-      <AsideBar></AsideBar>
+      <OptionButtons></OptionButtons>
     </div>
   );
 };

@@ -14,3 +14,10 @@
   background: #f07167ff;
   padding: 20px;
 }
+.header .infoBar {
+  border-style: inset;
+
+  margin-right: 50%;
+  padding-bottom: 50%;
+  background-color: #0081a7ff;
+}

@@ -1,11 +1,11 @@
 import { HashRouter, Route, Link, Routes } from "react-router-dom";
-import AboutMePage from "../src/components/aboutMe";
-import ResumePage from "./components/resume";
-import HomePage from "./components/home";
-import BackendProjectsPage from "./components/backend-projects";
-import FrontendProjectsPage from "./components/frontend-projects";
-import FullstackProjectsPage from "./components/full-stack-projects";
-import ContactPage from "./components/contact";
+import AboutMePage from "./containers/aboutMe";
+import ResumePage from "./containers/resume";
+import HomePage from "./containers/home";
+import BackendProjectsPage from "./containers/backend-projects";
+import FrontendProjectsPage from "./containers/frontend-projects";
+import FullstackProjectsPage from "./containers/full-stack-projects";
+import ContactPage from "./containers/contact";
 
 const AppRouter = () => {
   return (

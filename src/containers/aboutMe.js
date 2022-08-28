@@ -1,5 +1,10 @@
+import AsideBar from "../components/asideBar";
 const AboutMePage = () => {
-  return <div>This is the about me page</div>;
+  return (
+    <div>
+      <AsideBar></AsideBar>
+    </div>
+  );
 };
 
 export default AboutMePage;

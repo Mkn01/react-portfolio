@@ -1,5 +1,11 @@
+import AsideBar from "../components/asideBar";
+import ProjectCards from "../components/project";
 const BackendProjectsPage = () => {
-  return <div>This is the Backend Projects Page </div>;
+  return (
+    <div>
+      <ProjectCards></ProjectCards>
+    </div>
+  );
 };
 
 export default BackendProjectsPage;

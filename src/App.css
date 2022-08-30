@@ -23,3 +23,17 @@
   color: white;
   font-size: 30px;
 }
+.headShot {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  transition: 200ms transform ease-in-out;
+}
+
+.head-shot:hover {
+  transform: scale(1.025);
+}

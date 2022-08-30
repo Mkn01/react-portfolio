@@ -3,7 +3,7 @@ const ImgContainer = () => {
     <div>
       <div>
         <img
-          class="head-shot"
+          class="headShot"
           alt="headshot"
           src="src/components/assets/images/icon.png"
         />

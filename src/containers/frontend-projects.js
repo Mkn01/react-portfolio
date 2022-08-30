@@ -1,9 +1,9 @@
-import AsideBar from "../components/asideBar";
+import MainHeader from "../components/header";
 import ProjectCards from "../components/project";
 const FrontendProjectsPage = () => {
   return (
     <div>
-      <AsideBar></AsideBar>
+      <MainHeader></MainHeader>
       <ProjectCards></ProjectCards>
     </div>
   );

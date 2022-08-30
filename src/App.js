@@ -10,6 +10,7 @@ function App() {
     <HashRouter>
       <NavigationBar link="About me"></NavigationBar>
       <AppRouter />
+
       <Footer></Footer>
     </HashRouter>
   );

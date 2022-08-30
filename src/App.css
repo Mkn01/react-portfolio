@@ -12,13 +12,14 @@
   bottom: 0px;
   height: 30px;
   width: 100%;
-  background: #f07167ff;
+  background: #0081a7ff;
   padding: 20px;
 }
-.header .infoBar {
-  border-style: inset;
 
-  margin-right: 50%;
-  padding-bottom: 50%;
-  background-color: #0081a7ff;
+.pageHeader {
+  padding: 60px;
+  text-align: center;
+  background-color: #00afb9ff;
+  color: white;
+  font-size: 30px;
 }

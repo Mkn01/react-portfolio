@@ -1,8 +1,9 @@
-import AsideBar from "../components/asideBar";
+import MainHeader from "../components/header";
+
 const AboutMePage = () => {
   return (
     <div>
-      <AsideBar></AsideBar>
+      <MainHeader></MainHeader>
     </div>
   );
 };

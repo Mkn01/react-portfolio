@@ -1,10 +1,11 @@
 import MainHeader from "../components/header";
 import ImgContainer from "../components/img-container";
+import HomePage from "./home";
 
 const AboutMePage = () => {
   return (
     <div>
-      <MainHeader></MainHeader>
+      <MainHeader header={header} />
       <ImgContainer></ImgContainer>
     </div>
   );

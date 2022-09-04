@@ -1,9 +1,9 @@
-import MainHeader from "../components/header";
 import ProjectCards from "../components/project";
+import { PageTitle } from "../components/header";
 const BackendProjectsPage = () => {
   return (
     <div>
-      <MainHeader></MainHeader>
+      <PageTitle title={"Portfolio"} />
       <ProjectCards></ProjectCards>
     </div>
   );

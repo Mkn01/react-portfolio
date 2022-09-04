@@ -1,10 +1,11 @@
-import AsideBar from "../components/asideBar";
-const ResumePage = () => {
+import { PageTitle } from "../components/header";
+
+const Resume = () => {
   return (
     <div>
-      <AsideBar></AsideBar>
+      <PageTitle title={"Resume"} />
     </div>
   );
 };
 
-export default ResumePage;
+export default Resume;

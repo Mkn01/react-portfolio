@@ -1,10 +1,11 @@
-import AsideBar from "../components/asideBar";
-const ContactPage = () => {
+import { PageTitle } from "../components/header";
+
+const Contact = () => {
   return (
     <div>
-      <AsideBar></AsideBar>
+      <PageTitle title={"Contact"} />
     </div>
   );
 };
 
-export default ContactPage;
+export default Contact;

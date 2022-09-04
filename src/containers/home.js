@@ -1,10 +1,9 @@
-import OptionButtons from "../components/buttons";
+import { PageTitle } from "../components/header";
 
 const HomePage = () => {
-  const [header] = [{ header: "About Me" }];
   return (
     <div>
-      <OptionButtons></OptionButtons>
+      <PageTitle title={"Welcome"} />
     </div>
   );
 };

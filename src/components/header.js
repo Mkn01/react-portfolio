@@ -1,12 +1,7 @@
-const MainHeader = (props) => {
-  const header = props.header;
-  console.log(props.header);
+export const PageTitle = ({ title }) => {
   return (
-    <div class="pageHeader">
-      <h1>{Header}</h1>
-      <p>page info</p>
+    <div className="headerContainer">
+      <h1>{title}</h1>
     </div>
   );
 };
-
-export default MainHeader;

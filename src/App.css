@@ -16,13 +16,6 @@
   padding: 20px;
 }
 
-.pageHeader {
-  padding: 60px;
-  text-align: center;
-  background-color: #00afb9ff;
-  color: white;
-  font-size: 30px;
-}
 .headShot {
   border-radius: 50%;
   width: 250px;
@@ -36,4 +29,12 @@
 
 .head-shot:hover {
   transform: scale(1.025);
+}
+
+.headerContainer {
+  padding: 60px;
+  text-align: center;
+  background-color: #00afb9ff;
+  color: white;
+  font-size: 30px;
 }

@@ -1,12 +1,9 @@
-import MainHeader from "../components/header";
-import ImgContainer from "../components/img-container";
-import HomePage from "./home";
+import { PageTitle } from "../components/header";
 
 const AboutMePage = () => {
   return (
     <div>
-      <MainHeader header={header} />
-      <ImgContainer></ImgContainer>
+      <PageTitle title={"About Me"} />
     </div>
   );
 };

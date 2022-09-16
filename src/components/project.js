@@ -1,28 +1,81 @@
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { Divider } from "@mui/material";
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+import Link from "@mui/material/Link";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
+import Divider from "@mui/material/Divider";
 
-export const ProjectCards = ({ title, image, bio, alt }) => {
+export const ProjectCards = ({
+  img,
+  title,
+  text,
+  githubRepo,
+  deployedPage,
+}) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia component="img" height="140" image={image} alt={alt} />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+    <Box
+      sx={{
+        minWidth: "400px",
+      }}
+    >
+      <Card
+        sx={{
+          maxWidth: "100%",
+
+          m: 2,
+        }}
+      >
+        <Typography
+          variant="h6"
+          sx={{
+            backgroundColor: "  #8b575cff",
+            textAlign: "center",
+            color: "#16123f",
+          }}
+        >
           {title}
         </Typography>
-        <Divider></Divider>
-        <Typography variant="body2" color="text.secondary">
-          {bio}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Git Hub</Button>
-        <Button size="small">Deployed</Button>
-      </CardActions>
-    </Card>
+        <CardMedia
+          sx={{ alignItems: "center", objectFit: "contain" }}
+          height="140"
+          component="img"
+          image={img}
+          alt={title}
+        />
+        <Divider />
+        <Grid
+          container
+          rowSpacing={{ xs: 1, sm: 2, md: 3 }}
+          sx={{ paddingTop: "6px" }}
+        >
+          <Grid item xs={6}>
+            <Link
+              href={githubRepo}
+              target="_blank"
+              color="#16123f"
+              sx={{ textDecoration: "none" }}
+            >
+              <GitHubIcon />
+              <Typography variant="body2"> Github Repo</Typography>
+            </Link>
+          </Grid>
+
+          <Grid item xs={6}>
+            <Link
+              href={deployedPage}
+              target="_blank"
+              color="inherit"
+              sx={{ textDecoration: "none" }}
+            >
+              <OpenInBrowserIcon />
+              <Typography variant="body2">Deployed page</Typography>
+            </Link>
+          </Grid>
+        </Grid>
+      </Card>
+    </Box>
   );
 };

@@ -3,7 +3,14 @@ import { PageTitle } from "../components/header";
 import { ProjectCards } from "../components/project";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Box } from "@mui/system";
-
+import dayPlanner from "../components/assets/images/day planner.avif";
+import eventPlanning from "../components/assets/images/event planning.jpg";
+import refactor from "../components/assets/images/marketing-agency.jpg";
+import passwordGenerator from "../components/assets/images/password.jpg";
+import quiz from "../components/assets/images/screencapture-mkn01-github-io-code-quiz-2022-07-08-01_46_29.png";
+import portfolio from "../components/assets/images/screencapture-mkn01-github-io-portfolio-2022-07-31-12_06_14.png";
+import noteTaker from "../components/assets/images/screencapture-notes-creator-herokuapp-2022-07-31-10_43_33.png";
+import whatsOn from "../components/assets/images/screencapture-what-is-on-herokuapp-2022-07-31-10_15_09.png";
 import weatherDashboard from "../components/assets/images/weather-dash.avif";
 import placeholder from "../components/assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg";
 const PortfolioPage = () => {
@@ -15,7 +22,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="Event Planning"
-              img={weatherDashboard}
+              img={eventPlanning}
               githubRepo={"https://github.com/Am0031/event-planning"}
               deployedPage={"https://am0031.github.io/event-planning/"}
             />
@@ -23,7 +30,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="Event Finder"
-              img={weatherDashboard}
+              img={whatsOn}
               githubRepo={" https://github.com/talexandru1987/event-finder"}
               deployedPage={"https://what-is-on.herokuapp.com/"}
             />
@@ -31,7 +38,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="We Care"
-              img={weatherDashboard}
+              img={placeholder}
               githubRepo={" https://github.com/C-Sim/we-care-react"}
               deployedPage={"https://fathomless-bayou-99698.herokuapp.com/"}
             />
@@ -78,7 +85,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="Portfolio"
-              img={placeholder}
+              img={portfolio}
               githubRepo={"https://github.com/Mkn01/portfolio/tree/update"}
               deployedPage={"https://mkn01.github.io/portfolio/"}
             />
@@ -96,7 +103,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="Note Taker"
-              img={placeholder}
+              img={noteTaker}
               githubRepo={"https://github.com/Mkn01/notes-creator/tree/dev"}
               deployedPage={"https://notes-creator.herokuapp.com/"}
             />
@@ -128,7 +135,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="Day Planner"
-              img={placeholder}
+              img={dayPlanner}
               githubRepo={"https://github.com/Mkn01/day-planner/tree/dev"}
               deployedPage={"https://mkn01.github.io/day-planner/"}
             />
@@ -136,7 +143,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="Code Quiz"
-              img={placeholder}
+              img={quiz}
               githubRepo={"https://github.com/Mkn01/code-quiz/tree/dev"}
               deployedPage={"https://mkn01.github.io/code-quiz/"}
             />
@@ -144,7 +151,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="Password Generator"
-              img={placeholder}
+              img={passwordGenerator}
               githubRepo={
                 "https://github.com/Mkn01/random-password-generator/tree/dev"
               }
@@ -156,7 +163,7 @@ const PortfolioPage = () => {
           <Grid item xs={6}>
             <ProjectCards
               title="Code Refactor"
-              img={placeholder}
+              img={refactor}
               githubRepo={
                 "https://github.com/Mkn01/marketing-agency-refactor/tree/dev"
               }

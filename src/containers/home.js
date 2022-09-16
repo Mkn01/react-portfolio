@@ -1,7 +1,8 @@
 import { Avatar, Box, Paper } from "@mui/material";
 
 import { PageTitle } from "../components/header";
-
+import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { Button } from "@mui/material";
 import { Stack } from "@mui/system";
@@ -9,6 +10,8 @@ import photo from "../components/assets/images/g.n.jpg";
 
 const HomePage = () => {
   const isMobile = useMediaQuery("(max-width:600px)");
+  const navigate = useNavigate();
+
   return (
     <Box>
       <PageTitle title={"Welcome"} />
@@ -47,8 +50,8 @@ const HomePage = () => {
           justifyContent: "space-around",
         }}
       >
-        <Button>My Projects</Button>
-        <Button>Connect</Button>
+        {/* <Button href="/portfolio">My Projects</Button>
+        <Button onSubmit={navigate("/contact")}>Connect</Button> */}
       </Stack>
     </Box>
   );

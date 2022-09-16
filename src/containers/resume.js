@@ -8,8 +8,6 @@ const Resume = () => {
       <PageTitle title={"Resume"} />
       <Box
         sx={{
-          marginLeft: 60,
-          marginRight: 60,
           marginTop: 25,
           backgroundColor: "#f6bdd1ff",
           textAlign: "center",
@@ -17,9 +15,10 @@ const Resume = () => {
       >
         <Typography sx={{ color: "#16123f" }}>
           If you would like to view my full set of skills, projects and work
-          history, you can download the CV from{" "}
+          history, you can download the CV from {""}
           <a
             sx={{
+              marginLeft: 9,
               color: "#16123f",
               textDecoration: "none",
               "& :hover": { color: "#ffe26a" },

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.ae3b55b8.css",
+    "main.js": "/react-portfolio/static/js/main.cb19f5bf.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg": "/react-portfolio/static/media/kelly-sikkema-lJrTJHzQjOs-unsplash.661a166017fd73e881f0.jpg",
+    "static/media/g.n.jpg": "/react-portfolio/static/media/g.n.ca1ea251995165640fb7.jpg",
+    "static/media/weather-dash.avif": "/react-portfolio/static/media/weather-dash.4a05779e5c7e2e453a8a.avif",
+    "index.html": "/react-portfolio/index.html",
+    "main.ae3b55b8.css.map": "/react-portfolio/static/css/main.ae3b55b8.css.map",
+    "main.cb19f5bf.js.map": "/react-portfolio/static/js/main.cb19f5bf.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae3b55b8.css",
+    "static/js/main.cb19f5bf.js"
+  ]
+}

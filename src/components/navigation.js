@@ -14,10 +14,7 @@ const NavigationBar = ({ link }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <LinkContainer to="/about-me">
-              <Nav.Link>About Me</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/backend-projects">
+            <LinkContainer to="/portfolio">
               <Nav.Link>Portfolio</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/resume">

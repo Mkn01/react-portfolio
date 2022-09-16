@@ -1,11 +1,11 @@
 import { PageTitle } from "../components/header";
 
-const AboutMePage = () => {
+const PortfolioPage = () => {
   return (
     <div>
-      <PageTitle title={"About Me"} />
+      <PageTitle title={"My Projects"} />
     </div>
   );
 };
 
-export default AboutMePage;
+export default PortfolioPage;

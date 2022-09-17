@@ -5,7 +5,9 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Icon } from "@mui/material";
 import { Padding } from "@mui/icons-material";
+import useMediaQuery from "@mui/material/useMediaQuery";
 const Contact = () => {
+  const isMobile = useMediaQuery("(max-width:600px)");
   return (
     <div>
       <PageTitle title={"Contact"} />

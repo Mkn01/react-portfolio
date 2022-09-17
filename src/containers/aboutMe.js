@@ -3,6 +3,7 @@ import { PageTitle } from "../components/header";
 import { ProjectCards } from "../components/project";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Box } from "@mui/system";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import dayPlanner from "../components/assets/images/day planner.avif";
 import eventPlanning from "../components/assets/images/event planning.jpg";
 import refactor from "../components/assets/images/marketing-agency.jpg";
@@ -14,10 +15,19 @@ import whatsOn from "../components/assets/images/screencapture-what-is-on-heroku
 import weatherDashboard from "../components/assets/images/weather-dash.avif";
 import placeholder from "../components/assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg";
 const PortfolioPage = () => {
+  const isMobile = useMediaQuery("(max-width:600px)");
   return (
     <Stack>
       <PageTitle title={"My Projects"} />
-      <Box sx={{ flexGrow: 1, marginBottom: 9, marginLeft: 10 }}>
+      <Box
+        sx={{
+          flexGrow: 1,
+          marginBottom: 9,
+          marginRight: isMobile ? 2 : 40,
+          marginLeft: isMobile ? 2 : 50,
+          marginTop: 2,
+        }}
+      >
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
           <Grid item xs={6}>
             <ProjectCards
@@ -78,7 +88,7 @@ const PortfolioPage = () => {
                 "https://drive.google.com/file/d/1bW966iGF596aOc9ByS7CXtLECpl-jGXv/view"
               }
               deployedPage={
-                "https://mkn01.github.io/random-password-generator/"
+                "https://github.com/Mkn01/social-network-api/tree/dev"
               }
             />
           </Grid>

@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ae3b55b8.css",
-    "main.js": "/react-portfolio/static/js/main.cb19f5bf.js",
+    "main.css": "/react-portfolio/static/css/main.b3bb1702.css",
+    "main.js": "/react-portfolio/static/js/main.7bed72e0.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/screencapture-mkn01-github-io-portfolio-2022-07-31-12_06_14.png": "/react-portfolio/static/media/screencapture-mkn01-github-io-portfolio-2022-07-31-12_06_14.34befa52a3f48391d7ae.png",
+    "static/media/screencapture-what-is-on-herokuapp-2022-07-31-10_15_09.png": "/react-portfolio/static/media/screencapture-what-is-on-herokuapp-2022-07-31-10_15_09.07b3ee04f05ccd2a1f90.png",
+    "static/media/marketing-agency.jpg": "/react-portfolio/static/media/marketing-agency.2d4ec41e315bc1564981.jpg",
     "static/media/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg": "/react-portfolio/static/media/kelly-sikkema-lJrTJHzQjOs-unsplash.661a166017fd73e881f0.jpg",
+    "static/media/event planning.jpg": "/react-portfolio/static/media/event planning.71a0343d11500b4f84f9.jpg",
     "static/media/g.n.jpg": "/react-portfolio/static/media/g.n.ca1ea251995165640fb7.jpg",
+    "static/media/screencapture-notes-creator-herokuapp-2022-07-31-10_43_33.png": "/react-portfolio/static/media/screencapture-notes-creator-herokuapp-2022-07-31-10_43_33.3751e297ecfd9f4f88ba.png",
     "static/media/weather-dash.avif": "/react-portfolio/static/media/weather-dash.4a05779e5c7e2e453a8a.avif",
+    "static/media/password.jpg": "/react-portfolio/static/media/password.28449b3a491549db1342.jpg",
+    "static/media/screencapture-mkn01-github-io-code-quiz-2022-07-08-01_46_29.png": "/react-portfolio/static/media/screencapture-mkn01-github-io-code-quiz-2022-07-08-01_46_29.67e437a83ff868931ae2.png",
+    "static/media/day planner.avif": "/react-portfolio/static/media/day planner.5664190fa027f336deaa.avif",
     "index.html": "/react-portfolio/index.html",
-    "main.ae3b55b8.css.map": "/react-portfolio/static/css/main.ae3b55b8.css.map",
-    "main.cb19f5bf.js.map": "/react-portfolio/static/js/main.cb19f5bf.js.map",
+    "main.b3bb1702.css.map": "/react-portfolio/static/css/main.b3bb1702.css.map",
+    "main.7bed72e0.js.map": "/react-portfolio/static/js/main.7bed72e0.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae3b55b8.css",
-    "static/js/main.cb19f5bf.js"
+    "static/css/main.b3bb1702.css",
+    "static/js/main.7bed72e0.js"
   ]
 }

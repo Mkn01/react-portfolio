@@ -17,10 +17,11 @@ const Contact = () => {
   return (
     <div>
       <PageTitle title={"Contact"} />
-      <Card sx={{ minWidth: 275 }}>
+      <Card
+        sx={{ minWidth: 275, marginLeft: 10, marginRight: 10, marginTop: 3 }}
+      >
         <CardContent>
           <Box
-            backgroundColor="#c98986ff"
             sx={{ marginLeft: 50, marginRight: 50, marginTop: 8, Padding: 10 }}
           >
             <Link
@@ -33,6 +34,14 @@ const Contact = () => {
               }}
             >
               <GitHubIcon fontSize="large" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/gurmanpreet-nagra/"
+              target="_blank"
+              color="inherit"
+              sx={{ "& :hover": { color: "#ffe26a" } }}
+            >
+              <LinkedInIcon fontSize="large" />
             </Link>
             <Link
               href="https://www.linkedin.com/in/gurmanpreet-nagra/"

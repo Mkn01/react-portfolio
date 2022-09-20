@@ -15,7 +15,7 @@ const Resume = () => {
       >
         <Typography sx={{ color: "#16123f" }}>
           If you would like to view my full set of skills, projects and work
-          history, you can download the CV from {""}
+          history, you can from {""}
           <a
             sx={{
               marginLeft: 9,
@@ -23,8 +23,7 @@ const Resume = () => {
               textDecoration: "none",
               "& :hover": { color: "#ffe26a" },
             }}
-            href="./components/assets/cv/Gurmanpreet Nagra 2022 (5).pdf"
-            download="Gurmanpreet Nagra 2022.pdf"
+            href="https://docs.google.com/document/d/1FVegwLTGV_TrAracnoNP1nCRcc-gNyMZ/edit?usp=sharing&ouid=108889175675500067535&rtpof=true&sd=true"
           >
             here
           </a>

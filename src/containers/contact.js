@@ -18,7 +18,7 @@ const Contact = () => {
     <div>
       <PageTitle title={"Contact"} />
       <Card
-        sx={{ minWidth: 275, marginLeft: 10, marginRight: 10, marginTop: 3 }}
+        sx={{ minWidth: 275, marginLeft: 30, marginRight: 30, marginTop: 3 }}
       >
         <CardContent>
           <Box
@@ -34,14 +34,6 @@ const Contact = () => {
               }}
             >
               <GitHubIcon fontSize="large" />
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/gurmanpreet-nagra/"
-              target="_blank"
-              color="inherit"
-              sx={{ "& :hover": { color: "#ffe26a" } }}
-            >
-              <LinkedInIcon fontSize="large" />
             </Link>
             <Link
               href="https://www.linkedin.com/in/gurmanpreet-nagra/"

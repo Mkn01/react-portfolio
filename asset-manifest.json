@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b3bb1702.css",
-    "main.js": "/react-portfolio/static/js/main.950ade5e.js",
+    "main.js": "/react-portfolio/static/js/main.8d5e56c2.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/screencapture-mkn01-github-io-portfolio-2022-07-31-12_06_14.png": "/react-portfolio/static/media/screencapture-mkn01-github-io-portfolio-2022-07-31-12_06_14.34befa52a3f48391d7ae.png",
     "static/media/screencapture-what-is-on-herokuapp-2022-07-31-10_15_09.png": "/react-portfolio/static/media/screencapture-what-is-on-herokuapp-2022-07-31-10_15_09.07b3ee04f05ccd2a1f90.png",
@@ -16,11 +16,11 @@
     "static/media/day planner.avif": "/react-portfolio/static/media/day planner.5664190fa027f336deaa.avif",
     "index.html": "/react-portfolio/index.html",
     "main.b3bb1702.css.map": "/react-portfolio/static/css/main.b3bb1702.css.map",
-    "main.950ade5e.js.map": "/react-portfolio/static/js/main.950ade5e.js.map",
+    "main.8d5e56c2.js.map": "/react-portfolio/static/js/main.8d5e56c2.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3bb1702.css",
-    "static/js/main.950ade5e.js"
+    "static/js/main.8d5e56c2.js"
   ]
 }
